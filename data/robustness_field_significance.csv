@@ -1,0 +1,2 @@
+observed_significant_strata,n_strata,n_perm,null_mean,null_95th,null_max,field_p,note
+11,18,2000,0.798,6.0,18,0.012993503248375811,years permuted jointly across strata (preserves cross-strata correlation; ignores autocorrelation)

@@ -1,0 +1,8 @@
+variant,test,n_tests,raw_p_lt_0.05,bh_q_lt_0.05,bh_q_lt_0.10,bonferroni_p_lt_0.05,all_slopes_negative
+baseline,plain,18,11.0,11.0,13.0,3.0,True
+baseline,prewhitened,18,13.0,13.0,16.0,4.0,True
+forward_fill,plain,18,12.0,10.0,12.0,1.0,True
+forward_fill,prewhitened,18,13.0,12.0,13.0,0.0,True
+terra_aqua,plain,18,11.0,11.0,13.0,2.0,True
+terra_aqua,prewhitened,18,9.0,0.0,9.0,0.0,True
+ALL,family_size_rows_x2,432,,,,,

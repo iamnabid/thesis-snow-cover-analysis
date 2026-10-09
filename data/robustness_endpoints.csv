@@ -1,0 +1,5 @@
+window,n_years,significant_strata,negative_slope_strata,n_strata
+full,24,11,18,18
+drop_first_3,21,10,18,18
+drop_last_3,21,10,18,18
+drop_first_2_last_2,20,8,18,18

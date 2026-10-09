@@ -1,0 +1,8 @@
+earthengine-api==1.7.43
+pandas==3.0.5
+numpy==2.5.3
+scipy==1.18.1
+matplotlib==3.11.2
+pymannkendall==1.4.3
+rasterio==1.5.1
+requests==2.34.2
