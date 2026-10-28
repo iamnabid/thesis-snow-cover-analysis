@@ -112,10 +112,11 @@ def plot_validation_scatter(merged: pd.DataFrame, out_path: Path):
     ax.plot(lims, lims, "k--", linewidth=1, label="1:1 line")
     ax.set_xlabel("Station-derived SCD (days)")
     ax.set_ylabel("MODIS pixel SCD (days)")
-    ax.set_title("MODIS vs. station SCD (bias indicator, not accuracy benchmark)")
+    ax.set_title("MODIS vs. station SCD (pixel-level; bias indicator, not accuracy benchmark)",
+                 fontsize=10)
     ax.legend(fontsize=8)
     fig.tight_layout()
-    fig.savefig(out_path, dpi=150)
+    fig.savefig(out_path, dpi=150, bbox_inches="tight")
     print(f"Saved {out_path}")
 
 
